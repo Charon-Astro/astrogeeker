@@ -1,0 +1,4 @@
+title: "Hello, World!"
+description: "一个展示科研成果和科普资源的网站"
+theme: jekyll-theme-minimal
+markdown: kramdown
