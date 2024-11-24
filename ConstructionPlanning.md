@@ -2,52 +2,41 @@
 天文学相关的自学资源，包括天文学基础知识、天文学常用工具、天文学软件、天文学算法、天文学数据集、天文学论文、天文学书籍等。--这些东西我先做个容器，后续再慢慢添加进去
 
 ### 建站与托管
-使用 Jekyll 辅助建站 ，托管在 GitHub Pages。
+使用 MKDocs 辅助建站 ，托管在 GitHub Pages。
 
 ### 网站结构
 模仿[Hello 算法](https://www.hello-algo.com/)
 
-Hello-astronomy/
+## Hello-astronomy
+1. 首页 (Home)
+星空图
+网站简介
 
-├── _config.yml           # Jekyll 配置文件
-
-├── _layouts/
-
-│   ├── default.html      # 默认布局文件
-
-│   └── post.html         # 单个页面布局
-
-├── _includes/
-
-│   ├── header.html       # 头部导航
-
-│   └── footer.html       # 页脚
-
-├── _posts/               # 各类文章内容
-
-│   └── 成果展示/
-
-│   └── 科普资源/
-
-│   └── 专业介绍/
-
-│   └── 科研入门/
-
-│   └── 学习路线/
-
-├── assets/               # 静态资源
-
-│   ├── css/
-
-│   │   └── style.css     # 样式文件
-
-│   └── js/
-
-│       └── main.js       # 主 JavaScript 文件
-
-├── index.html            # 网站主页
-
-└── 科普资源.md            # 各类页面内容
+2. 基础入门 (Astronomy Basics)
+天文学简介
+重要术语解释
+观察夜空的基本知识
+如何使用星图
+3. 观测指南 (Observation Guide)
+天空观测工具：望远镜、双筒望远镜和裸眼观测
+夜空中值得注意的天体（如行星、恒星、星座）
+每月观测亮点更新
+光污染和观测地点推荐
+4. 太阳系探索 (Solar System Exploration)
+太阳
+八大行星及其卫星
+小行星、彗星和流星雨
+行星观测技巧
+5. 宇宙奇观 (Cosmic Wonders)
+银河系
+星云和星团
+黑洞和中子星
+宇宙膨胀和大爆炸理论
+6. 天文摄影 (Astrophotography)
+天文摄影设备
+摄影技巧入门
+图片处理指南
+经典天文摄影作品赏析
 
 
 
