@@ -1,18 +1,24 @@
 site_name: Hello-Astronomy
-site_description: 探索宇宙奥秘的旅程
-site_author: Xia0-0 
+site_description: 探索有趣的旅程
+site_author: Xia0-0&xxxx
 theme:
   name: material
+
+
+
 
 nav:
   - 首页: index.md
-  - 天文知识:
-      - 太阳系: solar_system.md
+  - 基础入门:
+      - 太阳系: basic.md
       - 宇宙结构: universe_structure.md
-
-theme:
-  name: material
-  features:
-    - navigation.tabs  # 使用标签导航
-    - search.highlight # 高亮搜索结果
-    - toc.integrate    # 集成目录
+      - 星系: galaxies.md
+      - 星系团: galaxy_clusters.md
+  - 实用技术:
+      - 天文望远镜: telescope.md
+      - 数学: mathematics.md
+  - 其他:
+      - 其他技术: other_technology.md
+      - 资源链接: resources.md
+      
+ 

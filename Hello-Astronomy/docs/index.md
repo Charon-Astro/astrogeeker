@@ -1,12 +1,7 @@
-# Welcome to Hello-Astronomy
-欢迎来到天文自学网站！这里是关于宇宙的探索与知识分享。
-![alt text](image.png)
+# 首页
 
-## 快速导航
-- [太阳系](solar_system.md)
-- [宇宙结构](universe_structure.md)
+![alt 属性文本](assets/images/starry_sky.jpg "可选标题")  
 
+全屏天文图，不时有流星划过
 
-
-
-
+没弄好

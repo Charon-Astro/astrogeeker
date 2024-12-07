@@ -13,8 +13,8 @@
   - **Git**：用于版本控制和发布。
   - **文本编辑器**：VS Code。
 
-- 安装必要的工具：
-  ```bash
+- 安装命令：
+  ``` bash
   windows:
   
   1.pip install mkdocs
@@ -26,8 +26,10 @@
 
 ---
 
-### **阶段 2：开发阶段**
-#### **3. 初始化网站项目**
+## 阶段 2：开发阶段
+
+### 1. 初始化网站项目
+
 1. 创建网站文件夹并初始化项目：
    ```bash
    mkdocs new my-astronomy-site
@@ -37,6 +39,8 @@
    ```
    my-astronomy-site/
    ├── docs/           # 文档目录
+
+   
    │   └── index.md    # 网站首页内容
    └── mkdocs.yml      # 网站配置文件
    ```
@@ -46,9 +50,9 @@
   - 在 `docs/` 文件夹下添加新的文档：
     ```
     docs/
-    ├── index.md            # 首页
-    ├── solar_system.md     # 太阳系
-    └── universe_structure.md # 宇宙结构
+    ├── index.md     # 首页
+    ├── basic.md     # 太阳系
+    └── technique.md # 宇宙结构
     ```
 - **组织内容结构**：
   使用 Markdown 编写每个主题，例如 `solar_system.md`：
