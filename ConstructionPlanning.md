@@ -1,4 +1,4 @@
-# Hello-Astronomy**，建设流程🌌✨
+# Hello-Astronomy，建设流程🌌✨
 ---
 
 ## 阶段 1：准备阶段
@@ -13,7 +13,7 @@
   - **Git**：用于版本控制和发布。
   - **文本编辑器**：VS Code。
 
-- 安装命令：
+- 命令：
   ``` bash
   windows:
   
@@ -24,7 +24,6 @@
 
   ```
 
----
 
 ## 阶段 2：开发阶段
 
@@ -39,50 +38,54 @@
    ```
    my-astronomy-site/
    ├── docs/           # 文档目录
-
-   
    │   └── index.md    # 网站首页内容
    └── mkdocs.yml      # 网站配置文件
    ```
 
-#### **4. 编写网站内容**
-- **创建 Markdown 文档**：
+### 2. 编写网站内容
+**创建 Markdown 文档**：
   - 在 `docs/` 文件夹下添加新的文档：
-    ```
-    docs/
-    ├── index.md     # 首页
-    ├── basic.md     # 太阳系
-    └── technique.md # 宇宙结构
-    ```
-- **组织内容结构**：
-  使用 Markdown 编写每个主题，例如 `solar_system.md`：
-  ```markdown
-  # 太阳系
-  太阳系包括八大行星、太阳、小行星带等。
-  ![太阳系图片](images/solar_system.jpg)
-  ```
 
-#### **5. 配置导航**
-- 修改 `mkdocs.yml` 文件，为内容添加导航：
-  ```yaml
-  nav:
-    - 首页: index.md
-    - 天文学知识:
-        - 太阳系: solar_system.md
-        - 宇宙结构: universe_structure.md
-  ```
+    ```
+    docs/  
+    ├── index.md                    # 首页  
+    ├── basic/                       # 基础  
+    │   ├── time_and_calendar.md     # 时间与历法  
+    │   ├── sky_and_coordinates.md   # 天球与坐标  
+    │   ├── astronomy_overview.md    # 天文学概论  
+    │   ├── planets_and_stars.md     # 行星与恒星  
+    │   ├── galaxies_and_galaxy_clusters.md  # 星系与星系团  
+    │   ├── cosmology.md             # 宇宙大尺度下的视角  
+    ├── astrophysics                # 天体物理  
+    │   ├── gravitation.md           # 轨道力学  
+    │   ├── radiation.md             # 辐射理论  
+    │   ├── spectroscopy.md          # 星系学  
+    │   ├── galaxy_physics.md        # 宇宙学    
+    ├── technique.md                 # 实用技术  
+    │   ├── astronomical_observations.md  # 天体观测  
+    │   ├── astronomy_photography.md     # 天文摄影   
+    │   ├── computer.md              # 计算机  
+    ├── other.md                     # 其他   
+    │   └── resources.md             # 书籍与资源推荐  
+    ```
+- **编写内容**：  
+  使用 Markdown 编写每个主题，.............
+  ...............编写中🤣🤣🤣
+  
+- **配置导航**  
+修改 `mkdocs.yml` 文件，为内容添加导航：
 
-#### **6. 运行本地开发服务器**
+### 3. 本地预览与调试
 1. 启动本地预览：
    ```bash
-   mkdocs serve
+    python -m mkdocs serve
    ```
 2. 打开浏览器访问 `http://127.0.0.1:8000`，实时查看网站效果。
 
----
 
-### **阶段 3：部署与发布**
-#### **7. 部署到 GitHub Pages**
+
+## 阶段3：部署与发布
+### 1. 部署到 GitHub Pages
 1. 初始化 Git 仓库：
    ```bash
    git init
@@ -155,7 +158,7 @@
 1. **目标规划 → 工具安装 → 内容开发 → 本地预览**  
 2. **部署上线 → 美化与扩展 → 持续更新 → 添加高级功能**
 
-主人，这个流程清晰吗？还是说需要某部分更详细的解释？\(≧▽≦)/
+
 
 
 
@@ -168,36 +171,7 @@
 ### 网站结构
 模仿[Hello 算法](https://www.hello-algo.com/)
 
-## Hello-astronomy
-1. 首页 (Home)
-星空图
-网站简介
 
-2. 基础入门 (Astronomy Basics)
-天文学简介
-重要术语解释
-观察夜空的基本知识
-如何使用星图
-3. 观测指南 (Observation Guide)
-天空观测工具：望远镜、双筒望远镜和裸眼观测
-夜空中值得注意的天体（如行星、恒星、星座）
-每月观测亮点更新
-光污染和观测地点推荐
-4. 太阳系探索 (Solar System Exploration)
-太阳
-八大行星及其卫星
-小行星、彗星和流星雨
-行星观测技巧
-5. 宇宙奇观 (Cosmic Wonders)
-银河系
-星云和星团
-黑洞和中子星
-宇宙膨胀和大爆炸理论
-6. 天文摄影 (Astrophotography)
-天文摄影设备
-摄影技巧入门
-图片处理指南
-经典天文摄影作品赏析
 
 
 

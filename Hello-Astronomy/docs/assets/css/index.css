@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/images/starry_sky.jpg'); /* 替换为你的图片路径 */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.md-main__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+、
+
+/* 全局暗黑模式背景 */
+html[data-md-color-scheme="slate"] {
+    background-color: #000; /* 深空黑背景 */
+    color: #ccc; /* 默认文本颜色，灰白 */
+  }
+  
+  /* 修改标题样式 */
+  html[data-md-color-scheme="slate"] h1, 
+  html[data-md-color-scheme="slate"] h2, 
+  html[data-md-color-scheme="slate"] h3 {
+    color: #fff; /* 明亮的白色标题 */
+  }
+  
+  /* 链接颜色 */
+  html[data-md-color-scheme="slate"] a {
+    color: #00bcd4; /* 天蓝色链接，模拟星光 */
+  }
+  
+  /* 表格样式 */
+  html[data-md-color-scheme="slate"] table {
+    border: 1px solid #444; /* 表格边框 */
+    background-color: #111; /* 表格背景 */
+  }
+  
+  html[data-md-color-scheme="slate"] table th,
+  html[data-md-color-scheme="slate"] table td {
+    color: #ddd; /* 表格文本颜色 */
+    border: 1px solid #555; /* 单元格边框 */
+  }
+  
+  /* 代码块背景 */
+  html[data-md-color-scheme="slate"] pre, 
+  html[data-md-color-scheme="slate"] code {
+    background-color: #1e1e1e; /* 暗黑代码块背景 */
+    color: #00ff7f; /* 绿色代码文字 */
+  }
+  
+  /* 鼠标悬停高亮效果 */
+  html[data-md-color-scheme="slate"] a:hover {
+    color: #ff5722; /* 橙红色悬停效果 */
+  }
+
+  
+
+  /* 星空背景 */
+html[data-md-color-scheme="slate"] {
+    background: #000 url('https://source.unsplash.com/1600x900/?stars,space') no-repeat center center fixed;
+    background-size: cover; /* 全屏背景图 */
+  }
+  
+  /* 添加星星动画 */
+  html[data-md-color-scheme="slate"]::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 70%);
+    animation: twinkling 10s infinite;
+    z-index: -1; /* 确保动画在背景层 */
+  }
+  
+  @keyframes twinkling {
+    0% { opacity: 0.5; transform: translateY(0); }
+    50% { opacity: 1; transform: translateY(-10px); }
+    100% { opacity: 0.5; transform: translateY(0); }
+  }
+  
