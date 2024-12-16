@@ -1,3 +1,4 @@
+
 site_name: Hello-Astronomy  
 site_description: 探索有趣的旅程
 site_author: Xia0-0
@@ -47,5 +48,4 @@ nav:
       - 计算机: technique/computer.md
   
   - 其他:
-      - 书籍: other/book.md
       - 资源: other/resources.md

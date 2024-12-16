@@ -9,11 +9,11 @@
 
 ### 2. 工具与环境搭建
 - 安装：
-  - **Python**：MkDocs 的运行依赖。
+  - **Python**：[MkDocs](https://www.mkdocs.org)的运行依赖。
   - **Git**：用于版本控制和发布。
   - **文本编辑器**：VS Code。
 
-- 命令：
+- 命令(站点本地启动)：
   ``` bash
   windows:
   
@@ -31,8 +31,8 @@
 
 1. 创建网站文件夹并初始化项目：
    ```bash
-   mkdocs new my-astronomy-site
-   cd my-astronomy-site
+   mkdocs new Hello-Astronomy
+   cd Hello-Astronomy
    ```
 2. 查看项目结构，确保以下文件存在：
    ```
@@ -68,9 +68,13 @@
     ├── other.md                     # 其他   
     │   └── resources.md             # 书籍与资源推荐  
     ```
-- **编写内容**：  
+   有个[思维导图](Hello-Astronomy.xmind)，同级目录下
+
+
+- **编写内容**： 
+
   使用 Markdown 编写每个主题，.............
-  ...............编写中🤣🤣🤣
+  ...............编写中🤣🤣🤣Charon姐，靠你了
   
 - **配置导航**  
 修改 `mkdocs.yml` 文件，为内容添加导航：
@@ -83,26 +87,24 @@
 2. 打开浏览器访问 `http://127.0.0.1:8000`，实时查看网站效果。
 
 
+## 阶段 3：配置与部署  
 
-## 阶段3：部署与发布
-### 1. 部署到 GitHub Pages
-1. 初始化 Git 仓库：
-   ```bash
-   git init
-   git remote add origin https://github.com/你的用户名/仓库名.git
-   git add .
-   git commit -m "Initial commit"
-   git push -u origin main
-   ```
-2. 部署到 GitHub Pages：
-   ```bash
-   mkdocs gh-deploy
-   ```
-3. 发布成功后，访问你的网址，例如 `https://你的用户名.github.io/仓库名/`。
+打开 GitHub 仓库 → 进入 Settings(所有者)。
 
+仓库名改为 Hello-Astronomy
+
+在左侧菜单找到 Pages。
+
+选择：Branch：选择 main/ docs
+点击 Save 保存设置。
+
+部署自定义域名
+
+
+接下来的步骤，缓步进行
 ---
 
-### **阶段 4：优化与扩展**
+### 阶段 4：优化与扩展
 #### **8. 美化与功能增强**
 - 使用 **Material Theme** 添加现代设计：
   ```yaml

@@ -1,11 +1,7 @@
+![alt 属性文本](assets/images/starry_sky.png)
 
 
 
+HELLO WORLD!
 
-要求：
-1.全屏天文图，不时有流星划过 ,有瑕疵     
-2.下滑有网站简介    
-3.评论区，giscus  
-
-明确首页的作用，可以写清楚网站的用途、目标人群以及目录导航的简短介绍。  
-比如：欢迎语 + 天文学意义简介 + 快速导航。
+HELLO ASTRONOMY! 
