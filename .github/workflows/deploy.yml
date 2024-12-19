@@ -1,0 +1,23 @@
+name: Build and Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # 允许 bot 对仓库内容进行写操作
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: pip install mkdocs mkdocs-material
+
+    - name: Deploy MkDocs to GitHub Pages
+      run: mkdocs gh-deploy --force

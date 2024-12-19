@@ -1,0 +1,51 @@
+site_name: Hello-Astronomy  
+site_description: 探索有趣的旅程
+site_author: Xia0-0
+
+theme:
+  name: material
+  favicon: assets/images/favicon1.ico
+  logo: assets/images/logo.png
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 长夜漫漫
+    - scheme: light
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 旭日东升
+
+
+extra_css:
+  - assets/css/index.css
+
+nav:
+  - 首页: index.md
+
+  - 基础入门:
+      - 天文学概论: basic/astronomy_overview.md
+      - 时间与历法: basic/time_and_calendar.md
+      - 天球与坐标: basic/sky_and_coordinates.md
+      - 行星与恒星: basic/planets_and_stars.md
+      - 星系与星系团: basic/galaxies_and_galaxy_clusters.md
+      - 宇宙大尺度下的视角: basic/cosmology.md
+
+  - 天体物理: 
+      - 轨道力学: physics/gravitation.md
+      - 辐射理论: physics/radiation.md
+      - 恒星物理: physics/stellar_physics.md
+      - 星系学: physics/spectroscopy.md
+      - 宇宙学: physics/galaxy_physics.md
+    
+  - 实用技术:
+      - 天体观测: technique/astronomical_observations.md
+      - 天文摄影: technique/astronomy_photography.md
+      - 计算机: technique/computer.md
+  
+  - 其他:
+      - 资源: other/resources.md
