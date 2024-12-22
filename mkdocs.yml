@@ -5,7 +5,7 @@ site_author: Charon,Xia0-0
 theme:
   name: material
   favicon: assets/images/favicon1.ico
-  logo: assets/images/logo.png
+  logo: assets/images/logo.jpg
   palette:
     - scheme: slate
       primary: black
