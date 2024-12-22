@@ -1,4 +1,4 @@
-<font face="HEI" size=7>星空属于每一个人。</font>
+<center>文字居中1</center>
 
 ![alt 属性文本](assets/images/potm2301a.jpg)
 
