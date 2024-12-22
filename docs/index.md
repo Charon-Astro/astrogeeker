@@ -1,4 +1,4 @@
-<center>文字居中1</center>
+# 星空属于每一个人。
 
 ![alt 属性文本](assets/images/potm2301a.jpg)
 
