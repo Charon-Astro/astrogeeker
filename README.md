@@ -7,6 +7,8 @@
 于是留言，与学姐接触，于是这个网站的建设就开始了。  
                                    ---Xia0_0
 
+网站：https://charon-astro.github.io/astrogeeker/
+
 🤣🤣🤣🤣🤣�
 
 本地安装运行：  
