@@ -1,6 +1,6 @@
 # 星空属于每一个人。
 
-![alt 属性文本](assets/images/potm2301a.jpg)
+![alt 属性文本](assets/images/jwst-science-themes.jpeg)
 
-Credit:
-ESA/Webb, NASA & CSA, A. Martel
+Credit: Image credit: The Space Telescope Science Institute
+Source: https://www.flickr.com/photos/nasawebbtelescope/38438218522/
