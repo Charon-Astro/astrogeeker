@@ -1,6 +1,6 @@
-site_name: Hello-Astronomy  
-site_description: 探索有趣的旅程
-site_author: Xia0-0
+site_name: 天文技术宅
+site_description: 星空属于每一个人
+site_author: Charon,Xia0-0
 
 theme:
   name: material
