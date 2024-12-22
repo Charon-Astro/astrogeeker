@@ -1,7 +1,6 @@
-![alt 属性文本](assets/images/starry_sky.png)
+星空属于每一个人。
 
+![alt 属性文本](assets/images/potm2301a.jpg)
 
-
-HELLO WORLD!
-
-HELLO ASTRONOMY! 
+Credit:
+ESA/Webb, NASA & CSA, A. Martel
