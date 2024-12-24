@@ -27,25 +27,32 @@ extra_css:
 nav:
   - 首页: index.md
 
-  - 基础入门:
-      - 天文学概论: basic/astronomy_overview.md
-      - 时间与历法: basic/time_and_calendar.md
-      - 天球与坐标: basic/sky_and_coordinates.md
-      - 行星与恒星: basic/planets_and_stars.md
-      - 星系与星系团: basic/galaxies_and_galaxy_clusters.md
-      - 宇宙大尺度下的视角: basic/cosmology.md
+  - 科普资源:
+      - 科普和科幻书籍: popsci/books.md
+      - 影视和纪录片: popsci/videos.md
+      - 公开课和课程资源: popsci/courses.md
+      - 公众号和自媒体: popsci/accounts.md
 
-  - 天体物理: 
-      - 轨道力学: physics/gravitation.md
-      - 辐射理论: physics/radiation.md
-      - 恒星物理: physics/stellar_physics.md
-      - 星系学: physics/spectroscopy.md
-      - 宇宙学: physics/galaxy_physics.md
+  - 专业介绍: 
+      - 专业基本情况: intro/basic.md
+      - 专业方向: intro/areas.md
+      - 开设院校情况: intro/unis.md
+      - 入门书籍: intro/books.md
+      - 职业生涯路线: intro/paths.md
+      - 专业资源: intro/resources.md
     
-  - 实用技术:
-      - 天体观测: technique/astronomical_observations.md
-      - 天文摄影: technique/astronomy_photography.md
-      - 计算机: technique/computer.md
+  - 专业课程:
+      - 数学物理课程: course/mathphys.md
+      - 计算机课程: course/computer.md
+      - 天文课程: course/astronomy.md
   
-  - 其他:
-      - 资源: other/resources.md
+  - 科研入门:
+      - 系统环境和Python基础: research/python.md
+      - 望远镜观测基础: research/observation.md
+      - 常用数据库: research/databases.md
+      - Python天文数据处理: research/dataproc.md
+      - 测光: research/photometry.md
+      - 光谱分析: research/spectroscopy.md
+      - 其它波段数据处理: research/otherdata.md
+      - 数据处理软件: research/software.md
+      - 其它工具: research/othertools.md
